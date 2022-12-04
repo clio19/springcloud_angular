@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/commons-microservices/commons-microservices.iml" filepath="$PROJECT_DIR$/commons-microservices/commons-microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-eureka/microservice-eureka.iml" filepath="$PROJECT_DIR$/microservice-eureka/microservice-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-users/microservice-users.iml" filepath="$PROJECT_DIR$/microservice-users/microservice-users.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-zuul/microservice-zuul.iml" filepath="$PROJECT_DIR$/microservice-zuul/microservice-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springcloud_angular.iml" filepath="$PROJECT_DIR$/.idea/springcloud_angular.iml" />
+    </modules>
+  </component>
+</project>
