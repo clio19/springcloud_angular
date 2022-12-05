@@ -1,17 +1,16 @@
 package com.htec.microserviceusers.app.users.services;
 
-import com.htec.commonsmicroservices.commons.services.CommonService;
 import com.htec.commonsmicroservices.commons.services.CommonServiceImpl;
-import com.htec.microserviceusers.app.users.models.entity.Student;
+import com.htec.commonsstudents.models.entity.Student;
 import com.htec.microserviceusers.app.users.models.repository.StudentRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
-import java.util.Optional;
 
 @Service
 public class StudentServiceImpl extends CommonServiceImpl<Student, StudentRepository> implements StudentService{
+    @Override
+    public Student saveStudent(Student student) {
+        return null;
+    }
 
 //    @Autowired
 //    private StudentRepository repository;

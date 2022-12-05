@@ -1,8 +1,9 @@
 package com.htec.microserviceusers.app.users.controllers;
 
 import com.htec.commonsmicroservices.commons.controllers.CommonController;
-import com.htec.microserviceusers.app.users.models.entity.Student;
+import com.htec.commonsstudents.models.entity.Student;
 import com.htec.microserviceusers.app.users.services.StudentService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,9 +16,8 @@ import java.util.Optional;
 @RestController
 public class StudentController extends CommonController<Student, StudentService> {
 
-
-//@Autowired
-//private StudentService service;
+@Autowired
+private StudentService service;
 
 //    @GetMapping
 //    public ResponseEntity<?> listStudents() {

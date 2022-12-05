@@ -8,7 +8,7 @@
         <version>2.5.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.htec</groupId>
+    <groupId>com.htec.commonsmicroservices</groupId>
     <artifactId>commons-microservices</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>commons-microservices</name>
